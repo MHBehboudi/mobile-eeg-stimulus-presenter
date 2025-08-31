@@ -14,59 +14,40 @@ A Python-based stimulus presentation platform engineered to facilitate mobile EE
 
 ---
 
-![Demo](Outline.jpg)
+![Demo](stimulus_presenter_project.png)
 
 ## Project Setup
 
 Follow these steps to get the experiment running on your local machine.
 
-#### 1. Get the Code
-   - On the GitHub repository page, click the green **`< > Code`** button.
-   - Select **Download ZIP**.
-   - Unzip the downloaded file to a location on your computer.
 
-#### 2. Install Dependencies
+#### 1. Install Dependencies
    - This project requires a few external Python libraries. You can install them using pip:
    ```bash
    pip install pandas openpyxl playsound Pillow
    ```
 
-#### 3. Create Required Folders
+#### 2. Create Required Folders
    - Inside the main project folder (`mobile-eeg-stimulus-presenter/`), create two new empty folders:
      - `Stimuli`
      - `data`
 
-#### 4. Add Your Experiment Files
+#### 3. Add Your Experiment Files
    - **Place all your media files** (e.g., `.wav`, `.png`, `.jpg`) inside the `Stimuli` folder.
    - **Place your `LENA_Modified.xlsx`** file in the main project folder.
 
-#### 5. Configure System Paths
+#### 4. Configure System Paths
    - Open the **`config.py`** file in a text editor.
    - **You must update the placeholder paths** with the full, absolute paths to the folders and files on your computer.
 
    ```python
    # Example of a correctly filled-out config.py
-   STIMULI_FOLDER = 'C:/Users/YourName/Documents/mobile-eeg-stimulus-presenter/Stimuli'
-   STIMULI_INFO_FILE = 'C:/Users/YourName/Documents/mobile-eeg-stimulus-presenter/LENA_Modified.xlsx'
-   DATA_SAVE_FOLDER = 'C:/Users/YourName/Documents/mobile-eeg-stimulus-presenter/data'
+   STIMULI_FOLDER = '/mobile-eeg-stimulus-presenter/Stimuli'
+   STIMULI_INFO_FILE = '/mobile-eeg-stimulus-presenter/LENA_Modified.xlsx'
+   DATA_SAVE_FOLDER = '/mobile-eeg-stimulus-presenter/data'
    ```
 
----
 
-## How to Run the Experiment
-
-Once the setup is complete, you can run the experiment from your terminal or command prompt.
-
-1.  Navigate to the main project directory:
-    ```bash
-    cd path/to/your/mobile-eeg-stimulus-presenter
-    ```
-2.  Run the main Python script:
-    ```bash
-    python main.py
-    ```
-
----
 
 ## The Stimuli Excel File
 
