@@ -53,7 +53,7 @@ Follow these steps to get the experiment running on your local machine.
 
 ---
 
-## ▶️ How to Run the Experiment
+## ▶How to Run the Experiment
 
 Once the setup is complete, you can run the experiment from your terminal or command prompt.
 
