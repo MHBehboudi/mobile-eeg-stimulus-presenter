@@ -16,6 +16,8 @@ A Python-based stimulus presentation platform engineered to facilitate mobile EE
 
 ---
 
+![Demo](Outline.jpg)
+
 ## Project Setup
 
 Follow these steps to get the experiment running on your local machine.
@@ -53,7 +55,7 @@ Follow these steps to get the experiment running on your local machine.
 
 ---
 
-## ▶How to Run the Experiment
+## How to Run the Experiment
 
 Once the setup is complete, you can run the experiment from your terminal or command prompt.
 
