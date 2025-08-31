@@ -1,5 +1,3 @@
-# mobile-eeg-stimulus-presenter
-A Python-based stimulus presentation platform for mobile EEG research.
 # Mobile EEG Stimulus Presentation Platform
 
 A Python-based stimulus presentation platform engineered to facilitate mobile EEG research in non-laboratory settings. This system was designed to increase research accessibility, removing geographical barriers in scientific studies.
